@@ -1,0 +1,41 @@
+.img-margin {
+    display: flex;
+    justify-content: space-between;
+    line-height: 0;
+}
+
+
+/* overflow photo */
+
+.photo-back {
+    position: relative;
+}
+
+.photo-overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+
+    bottom: 0px;
+    left: 0;
+
+    width: 100%;
+    height: 70px;
+
+    background-color: rgba(47, 48, 58, 0.8);
+}
+
+.photo-desc {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    margin-top: 0;
+    margin-bottom: 0;
+}

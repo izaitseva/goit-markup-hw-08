@@ -1,0 +1,44 @@
+.feature-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 120px;
+    border-radius: 4px;
+    background-color: #F5F4FA;
+    margin-bottom: 30px;
+}
+
+.list-services {
+    display: flex;
+    justify-content: space-between;
+
+    &>item {
+        display: block;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    
+    & h3 {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.5;
+        letter-spacing: 0.03em;
+        color: #212121;
+        text-transform: uppercase;
+        margin-top: 0;
+    }
+    
+    & p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
+        letter-spacing: 0.03em;
+        margin-bottom: 0;
+        width: 270px;
+    }
+    
+    & p:not(:last-child) {
+        margin-right: 30px;
+    }
+}

@@ -1,0 +1,30 @@
+// Утиліти
+@import "./utils/vars";
+@import "./utils/visually-hidden";
+
+// База
+@import "./base/common";
+@import "./base/reset";
+
+// Компоненти
+
+@import "./components/buttons";
+@import "./components/container";
+@import "./components/sections";
+@import "./components/socials";
+@import "./components/links";
+@import "./components/logo";
+@import "./components/icons";
+@import "./components/overlay";
+@import "./components/modal_window";
+@import "./components/_registration-form";
+
+// Layouts
+@import "./layouts/header";
+@import "./layouts/hero";
+@import "./layouts/team";
+@import "./layouts/list-services";
+@import "./layouts/features-layout";
+@import "./layouts/clients";
+@import "./layouts/portfolio";
+@import "./layouts/footer";

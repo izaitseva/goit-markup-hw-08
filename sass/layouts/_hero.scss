@@ -1,0 +1,30 @@
+.main-section {
+    background-image: linear-gradient(to right,
+            #2f303a66 15%,
+            #2f303a66 40%,
+            #2f303a66 65%,
+            #2f303a66),
+        url(../images/add_images/cover.jpg);
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #2F303A;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 600px;
+    padding-top: 200px;
+}
+
+.main-text {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    width: 700px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-top: 0;
+    color: #FFFFFF;
+}

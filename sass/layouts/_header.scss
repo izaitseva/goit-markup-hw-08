@@ -1,0 +1,135 @@
+.section-header {
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-bottom: 50px;
+    margin-top: 0px;
+}
+
+.section {
+    padding-top: 94px;
+}
+
+.header {
+    margin-top: 24px;
+
+    &-menu {
+        display: flex;
+    }
+
+    &-contacts {
+        display: flex;
+    }
+}
+
+.site-nav li:not(:last-child) {
+    margin-right: 50px;
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+}
+
+.link-nav {
+    display: block;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #212121;
+
+    position: relative;
+
+    transition-property: color, background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &::after {
+        content: " ";
+        position: absolute;
+        background-color: transparent;
+        top: 47px;
+        border-radius: 4px;
+        left: 0;
+        height: 4px;
+        width: 100%;
+
+        transition-property: color, background-color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    &:hover::after,
+    &:focus::after {
+        content: " ";
+        position: absolute;
+        background-color: #2196F3;
+        top: 47px;
+        border-radius: 4px;
+        left: 0;
+        height: 4px;
+        width: 100%;
+    }
+
+    &.active::after {
+        content: " ";
+        position: absolute;
+        background-color: #2196F3;
+        top: 47px;
+        border-radius: 4px;
+        left: 0;
+        height: 4px;
+        width: 100%;
+    }
+}
+
+.link {
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        color: #2196F3;
+        cursor: pointer;
+    }
+}
+
+.contacts-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #757575;
+    text-decoration: none;
+    margin-left: auto;
+
+
+    &:hover,
+    &:focus {
+        color: #2196F3;
+    }
+
+    &:hover .contacts-svg,
+    &:focus .contacts-svg {
+        fill: #2196F3;
+        cursor: pointer;
+    }
+}
+
+.div-contacts {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.contacts-svg {
+    fill: #757575;
+    margin-right: 10px;
+}
