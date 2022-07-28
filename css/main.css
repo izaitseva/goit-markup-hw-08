@@ -779,21 +779,35 @@ body {
 .main-section {
   background-image: -webkit-gradient(linear, left top, right top, color-stop(15%, rgba(47, 48, 58, 0.4)), color-stop(40%, rgba(47, 48, 58, 0.4)), color-stop(65%, rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/add_images/cover.jpg);
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4) 15%, rgba(47, 48, 58, 0.4) 40%, rgba(47, 48, 58, 0.4) 65%, rgba(47, 48, 58, 0.4)), url(../images/add_images/cover.jpg);
-  max-width: 1400px;
+  max-width: 480px;
   margin-left: auto;
   margin-right: auto;
   background-color: #2F303A;
   background-repeat: no-repeat;
   text-align: center;
-  height: 600px;
-  padding-top: 200px;
+  height: 400px;
+  padding-top: 118px;
+}
+@media screen and (min-width: 768px) {
+  .main-section {
+    max-width: 768px;
+    height: 400px;
+    padding-top: 118px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .main-section {
+    max-width: 1200px;
+    height: 600px;
+    padding-top: 200px;
+  }
 }
 
 .main-text {
   font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  width: 700px;
+  font-size: 26px;
+  line-height: 1.6;
+  width: 360px;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   margin-left: auto;
@@ -801,6 +815,19 @@ body {
   margin-bottom: 0;
   margin-top: 0;
   color: #FFFFFF;
+}
+@media screen and (min-width: 768px) {
+  .main-text {
+    font-size: 26px;
+    line-height: 1.6;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .main-text {
+    font-size: 44px;
+    line-height: 1.36;
+    width: 700px;
+  }
 }
 
 .team {
