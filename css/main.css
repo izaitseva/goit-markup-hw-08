@@ -1106,17 +1106,15 @@ body {
           transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.portfolio__listli {
   width: 450px;
 }
 @media screen and (min-width: 768px) {
-  .portfolio__listli {
+  .portfolio__list li {
     width: 354px;
   }
 }
 @media screen and (min-width: 1200px) {
-  .portfolio__listli {
+  .portfolio__list li {
     width: 370px;
   }
 }
@@ -1127,7 +1125,6 @@ body {
 }
 
 .porfolio__item {
-  margin-bottom: 30px;
   line-height: 0;
 }
 .porfolio__item:nth-child(3n) {
