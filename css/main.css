@@ -133,6 +133,20 @@ body {
   gap: 8px;
   margin-bottom: 50px;
 }
+@media screen and (min-width: 768px) {
+  .portfolio__btn-list {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .portfolio__btn-list {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
 .portfolio__btn:hover, .portfolio__btn:focus {
   background-color: #2196F3;
   color: #fff;
