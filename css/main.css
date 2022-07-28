@@ -649,16 +649,38 @@ body {
 
 .section-header {
   font-weight: 700;
-  font-size: 36px;
+  font-size: 28px;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   margin-top: 0px;
+}
+@media screen and (min-width: 768px) {
+  .section-header {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section-header {
+    font-size: 36px;
+    margin-bottom: 50px;
+  }
 }
 
 .section {
-  padding-top: 94px;
+  padding-top: 60px;
+}
+@media screen and (min-width: 768px) {
+  .section {
+    padding-top: 60px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section {
+    padding-top: 94px;
+  }
 }
 
 .header {
@@ -846,12 +868,24 @@ body {
 
 .team {
   background-color: #F5F4FA;
-  padding-bottom: 94px;
-  padding-top: 94px;
+  padding-bottom: 60px;
+  padding-top: 60px;
   display: block;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+@media screen and (min-width: 768px) {
+  .team {
+    padding-bottom: 60px;
+    padding-top: 60px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .team {
+    padding-bottom: 94px;
+    padding-top: 94px;
+  }
 }
 .team__item {
   display: block;
@@ -1034,8 +1068,20 @@ body {
 }
 
 .clients-container {
-  margin-top: 94px;
-  margin-bottom: 94px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+@media screen and (min-width: 768px) {
+  .clients-container {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .clients-container {
+    margin-top: 94px;
+    margin-bottom: 94px;
+  }
 }
 .clients-container h2 {
   font-weight: 700;

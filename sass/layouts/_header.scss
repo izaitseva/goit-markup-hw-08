@@ -1,15 +1,33 @@
 .section-header {
     font-weight: 700;
-    font-size: 36px;
+    font-size: 28px;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     margin-top: 0px;
+
+    @media screen and (min-width: 768px) {
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+    
+    @media screen and (min-width: 1200px) {
+        font-size: 36px;
+        margin-bottom: 50px;
+    }
 }
 
 .section {
-    padding-top: 94px;
+    padding-top: 60px;
+
+    @media screen and (min-width: 768px) {
+        padding-top: 60px;
+    }
+    
+    @media screen and (min-width: 1200px) {
+        padding-top: 94px;
+    }
 }
 
 .header {
