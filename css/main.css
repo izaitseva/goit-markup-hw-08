@@ -935,6 +935,17 @@ body {
   color: #212121;
   text-transform: uppercase;
   margin-top: 0;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .list-services h3 {
+    text-align: left;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .list-services h3 {
+    text-align: left;
+  }
 }
 .list-services p {
   font-weight: 400;
