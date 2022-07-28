@@ -2,23 +2,35 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 270px;
+    width: 450px;
     height: 120px;
     border-radius: 4px;
     background-color: #F5F4FA;
+    gap: 30px;
     margin-bottom: 30px;
+
+    @media screen and (min-width: 768px) {
+        width: 354px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        width: 270px;
+    }
+
 }
 
 .list-services {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+    gap: 30px;
 
     &>item {
         display: block;
         padding-top: 0;
         padding-bottom: 0;
     }
-    
+
     & h3 {
         font-weight: 700;
         font-size: 14px;
@@ -28,17 +40,22 @@
         text-transform: uppercase;
         margin-top: 0;
     }
-    
+
     & p {
         font-weight: 400;
         font-size: 14px;
         line-height: 1.7;
         letter-spacing: 0.03em;
         margin-bottom: 0;
-        width: 270px;
-    }
-    
-    & p:not(:last-child) {
-        margin-right: 30px;
+        width: 450px;
+
+        @media screen and (min-width: 768px) {
+            width: 354px;
+        }
+
+        @media screen and (min-width: 1200px) {
+            display: flex;
+            width: 270px;
+        }
     }
 }
