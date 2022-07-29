@@ -1,14 +1,13 @@
 <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <!-- Mobile Menu icons -->
-    <symbol id="icon-menu_btn" viewBox="0 0 159 106">
-      <path d="M0 17.667v-17.667h159v17.667h-159zM0 61.833h159v-17.667h-159v17.667zM0 106h159v-17.667h-159v17.667z">
-      </path>
-    </symbol>
     <symbol id="icon-close_mobile_menu_btn" viewBox="0 0 106 106">
-      <path
-        d="M104.141 10.488 93.653 0 52.071 41.582 10.489 0 .001 10.488 41.583 52.07.001 93.652l10.488 10.488 41.582-41.582 41.582 41.582 10.488-10.488L62.559 52.07l41.582-41.582z" />
+      <path d="M104.141 10.488 93.653 0 52.071 41.582 10.489 0 .001 10.488 41.583 52.07.001 93.652l10.488 10.488 41.582-41.582 41.582 41.582 10.488-10.488L62.559 52.07l41.582-41.582z"/>
     </symbol>
+    <symbol id="icon-menu_btn" viewBox="0 0 159 106">
+      <path d="M0 17.667V0h159v17.667H0zm0 44.166h159V44.166H0v17.667zM0 106h159V88.333H0V106z"/>
+    </symbol>
+  
     <!-- Clients -->
     <symbol id="icon-Client1" viewBox="0 0 59 32">
       <path
