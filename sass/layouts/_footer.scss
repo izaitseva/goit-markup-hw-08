@@ -1,9 +1,52 @@
 .footer-container {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    @media screen and (min-width: 768px) {
+        justify-content: space-evenly;
+    }
+
+    @media screen and (min-width: 1200px) {
+        justify-content:left;
+        align-items: flex-start;
+    }
 }
 
 .foot-container {
-    margin-left: 70px;
+    align-items: center;
+    text-align: center;
+    margin-top: 60px;
+
+    @media screen and (min-width: 768px) {
+        align-items: center;
+        text-align: center;
+    }
+
+    @media screen and (min-width: 1200px) {
+        margin-top: 0px;
+        text-align: left;
+    }
+}
+
+.footer_list {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    @media screen and (min-width: 768px) {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        text-align: left;
+        margin-right: 70px;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: 0px;
+    }
 }
 
 .footer {
@@ -56,13 +99,30 @@
 }
 
 // /* Футер форма */
+
+.footer__form {}
+
 .footer-form {
-    margin-left: 93px;
+    margin-top: 40px;
+    text-align: center;
+    justify-content: center;
+
+    @media screen and (min-width: 1200px) {
+        margin-left: 93px;
+        margin-top: 0px;
+        text-align: left;
+    }
 }
 
 .input-flex {
-    display: flex;
     align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    @media screen and (min-width: 1200px) {
+        align-items: center;
+        display: flex;
+    }
 }
 
 .footer-input {
@@ -100,5 +160,9 @@
 }
 
 .button-icon {
-    gap: 10px;
+    margin-left: 10px;
+}
+
+.input-flex {
+    display: block;
 }
