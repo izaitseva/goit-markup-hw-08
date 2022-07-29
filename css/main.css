@@ -1085,13 +1085,23 @@ body {
 }
 .clients-container h2 {
   font-weight: 700;
-  font-size: 36px;
+  font-size: 28px;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
   margin-bottom: 50px;
   margin-top: 0;
+}
+@media screen and (min-width: 768px) {
+  .clients-container h2 {
+    font-size: 28px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .clients-container h2 {
+    font-size: 36px;
+  }
 }
 
 .client-flex {
