@@ -1,18 +1,5 @@
 .footer-container {
-
-    flex-direction: column;
-    
-    @media screen and (min-width: 480px) {
-        max-width: 480px;
-    }
-    
-    @media screen and (min-width: 768px) {
-        max-width: 768px;
-    }
-    
-    @media screen and (min-width: 1200px) {
-        display: flex;
-    }
+    display: flex;
 }
 
 .foot-container {
@@ -71,7 +58,6 @@
 // /* Футер форма */
 .footer-form {
     margin-left: 93px;
-    /* position: relative; */
 }
 
 .input-flex {
@@ -114,5 +100,5 @@
 }
 
 .button-icon {
-    margin-left: 10px;
+    gap: 10px;
 }
