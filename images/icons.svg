@@ -4,8 +4,8 @@
     <symbol id="icon-close_mobile_menu_btn" viewBox="0 0 106 106">
       <path d="M104.141 10.488 93.653 0 52.071 41.582 10.489 0 .001 10.488 41.583 52.07.001 93.652l10.488 10.488 41.582-41.582 41.582 41.582 10.488-10.488L62.559 52.07l41.582-41.582z"/>
     </symbol>
-    <symbol id="icon-menu_btn" viewBox="0 0 159 106">
-      <path d="M0 17.667V0h159v17.667H0zm0 44.166h159V44.166H0v17.667zM0 106h159V88.333H0V106z"/>
+    <symbol id="icon-mobile_menu_btn" viewBox="0 0 106 106">
+      <path d="M21.2 38.867V31.8h63.6v7.067H21.2zm0 17.666h63.6v-7.066H21.2v7.066zm0 17.667h63.6v-7.067H21.2V74.2z"/>
     </symbol>
   
     <!-- Clients -->
