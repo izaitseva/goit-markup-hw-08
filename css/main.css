@@ -733,6 +733,10 @@ body {
   z-index: 10000;
 }
 
+.mobile-menu-nav:not(:last-child) {
+  margin-bottom: 32px;
+}
+
 .icon-mobile-close {
   position: relative;
 }
@@ -754,6 +758,10 @@ body {
 
 .mobile-contacts_item:not(:last-child) {
   margin-bottom: 32px;
+}
+.mobile-contacts_item:not(:last-child) .accent {
+  color: #2196F3;
+  font-size: 34px;
 }
 
 .mobile-link-contacts {
