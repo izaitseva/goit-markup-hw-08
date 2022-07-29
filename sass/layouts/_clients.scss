@@ -55,6 +55,9 @@
 
 .clients-link {
     width: 210px;
+    align-items: center;
+    justify-content: center;
+    
     @media screen and (min-width: 768px) {
         width: 226px;
     }
