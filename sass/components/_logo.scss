@@ -2,10 +2,18 @@
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
     font-weight: 700;
-    font-size: 26px;
+    font-size: 24px;
     letter-spacing: 0.03em;
     color: #2196F3;
-    margin-right: 94px;
+
+    @media screen and (min-width: 768px) {
+        font-size: 24px;
+    }
+    
+    @media screen and (min-width: 1200px) {
+        font-size: 26px;
+        margin-right: 94px;
+    }
 }
 
 .logo-header {
