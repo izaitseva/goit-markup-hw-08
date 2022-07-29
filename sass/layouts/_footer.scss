@@ -11,6 +11,7 @@
     @media screen and (min-width: 1200px) {
         justify-content:left;
         align-items: flex-start;
+        flex-wrap: nowrap;
     }
 }
 
@@ -20,8 +21,8 @@
     margin-top: 60px;
 
     @media screen and (min-width: 768px) {
-        align-items: center;
         text-align: center;
+        margin-top: 0;
     }
 
     @media screen and (min-width: 1200px) {
@@ -92,6 +93,14 @@
     margin-bottom: 20px;
     padding-top: 0;
     padding-bottom: 0;
+
+    @media screen and (min-width: 768px) {
+        margin-top: 0;
+    }
+
+    @media screen and (min-width: 1200px) {
+        margin-top: 0;
+    }
 }
 
 .footer-icon {
@@ -100,12 +109,14 @@
 
 // /* Футер форма */
 
-.footer__form {}
-
 .footer-form {
     margin-top: 40px;
     text-align: center;
     justify-content: center;
+
+    @media screen and (min-width: 1200px) {
+        margin-top: 60px;
+    }
 
     @media screen and (min-width: 1200px) {
         margin-left: 93px;
@@ -161,8 +172,4 @@
 
 .button-icon {
     margin-left: 10px;
-}
-
-.input-flex {
-    display: block;
 }
