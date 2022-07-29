@@ -1655,7 +1655,7 @@ body {
 }
 @media screen and (min-width: 768px) {
   .footer h3 {
-    margin-top: 0;
+    padding-top: 0;
   }
 }
 @media screen and (min-width: 1200px) {
