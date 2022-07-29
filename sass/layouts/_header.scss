@@ -6,6 +6,7 @@
     color: #212121;
     margin-bottom: 30px;
     margin-top: 0px;
+    z-index: 10;
 
     @media screen and (min-width: 768px) {
         font-size: 28px;
@@ -39,32 +40,7 @@
 }
 
 .mobile-menu-icon {
-
-    z-index: 1;
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    top: 8px;
-    right: 8px;
-    padding: 0;
-
-    background-color: #ffffff;
-
-    border-radius: 50%;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-
-    &:hover {
-        fill: #2196F3;
-        cursor: pointer;
-    }
-}
-
-.mobile-menu-close,
-.mobile-menu-icon {
-    position: absolute;
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -75,7 +51,6 @@
 
     background-color: transparent;
     border: none;
-    cursor: pointer;
 
     fill: #212121;
 
@@ -186,7 +161,6 @@
         cursor: pointer;
     }
 }
-
 
 .div-contacts {
     margin-left: auto;

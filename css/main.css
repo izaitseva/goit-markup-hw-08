@@ -379,7 +379,7 @@ body {
 }
 
 .backdrop {
-  z-index: 100;
+  z-index: 10000;
   position: fixed;
   top: 0;
   left: 0;
@@ -714,6 +714,29 @@ body {
   }
 }
 
+.mobile-menu-btn {
+  background-color: transparent;
+  border: none;
+  width: 40px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: auto;
+  z-index: 1000;
+}
+@media screen and (min-width: 768px) {
+  .mobile-menu-btn {
+    display: none;
+  }
+}
+
 .mobile-menu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -730,11 +753,30 @@ body {
   width: 100%;
   height: 100%;
   padding: 48px 40px;
-  z-index: 10000;
+  z-index: 100;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+  -webkit-transition: 500ms;
+  transition: 500ms;
+}
+.mobile-menu.is-open {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+.mobile-menu-btn.is-open .icon-mobile-open {
+  opacity: 0;
+}
+
+.mobile-menu-btn.is-open .icon-mobile-close {
+  opacity: 1;
 }
 
 .mobile-menu-nav:not(:last-child) {
   margin-bottom: 32px;
+}
+.mobile-menu-nav:not(:last-child) .current {
+  color: #2196F3;
 }
 
 .icon-mobile-close {
@@ -807,6 +849,7 @@ body {
   color: #212121;
   margin-bottom: 30px;
   margin-top: 0px;
+  z-index: 10;
 }
 @media screen and (min-width: 768px) {
   .section-header {
@@ -845,33 +888,7 @@ body {
 }
 
 .mobile-menu-icon {
-  z-index: 1;
-  position: absolute;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  top: 8px;
-  right: 8px;
-  padding: 0;
-  background-color: #ffffff;
-  border-radius: 50%;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  cursor: pointer;
-}
-.mobile-menu-icon:hover {
-  fill: #2196F3;
-  cursor: pointer;
-}
-
-.mobile-menu-close,
-.mobile-menu-icon {
-  position: absolute;
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -886,10 +903,8 @@ body {
   padding: 0;
   background-color: transparent;
   border: none;
-  cursor: pointer;
   fill: #212121;
 }
-.mobile-menu-close:hover,
 .mobile-menu-icon:hover {
   fill: #2196F3;
   cursor: pointer;
