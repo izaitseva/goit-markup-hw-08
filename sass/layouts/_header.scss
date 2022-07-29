@@ -59,6 +59,8 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #212121;
+    display: none;
+
 
     position: relative;
 
@@ -128,7 +130,7 @@
     color: #757575;
     text-decoration: none;
     margin-left: auto;
-
+    display: none;
 
     &:hover,
     &:focus {
@@ -141,6 +143,7 @@
         cursor: pointer;
     }
 }
+
 
 .div-contacts {
     margin-left: auto;

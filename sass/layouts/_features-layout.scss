@@ -1,9 +1,16 @@
+.features-layout {
+    display: none;
+
+    @media screen and (min-width: 1200px) {
+        display: block;
+    }
+}
+
 .img-margin {
     display: flex;
     justify-content: space-between;
     line-height: 0;
 }
-
 
 /* overflow photo */
 

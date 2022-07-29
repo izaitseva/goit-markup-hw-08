@@ -781,6 +781,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #212121;
+  display: none;
   position: relative;
   -webkit-transition-property: color, background-color;
   transition-property: color, background-color;
@@ -856,6 +857,7 @@ body {
   color: #757575;
   text-decoration: none;
   margin-left: auto;
+  display: none;
 }
 .contacts-header:hover, .contacts-header:focus {
   color: #2196F3;
@@ -1083,6 +1085,15 @@ body {
     display: -ms-flexbox;
     display: flex;
     width: 270px;
+  }
+}
+
+.features-layout {
+  display: none;
+}
+@media screen and (min-width: 1200px) {
+  .features-layout {
+    display: block;
   }
 }
 
