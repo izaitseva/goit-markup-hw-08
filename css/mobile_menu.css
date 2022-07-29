@@ -36,6 +36,10 @@
   color: #2196F3;
 }
 
+.mobile-contacts_item:not(:last-child) {
+  margin-bottom: 32px;
+}
+
 .mobile-link-contacts {
   font-weight: 500;
   font-size: 24px;
@@ -49,6 +53,8 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin-top: 64px;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -57,7 +63,7 @@
 }
 
 .mobile-menu-socials:not(:last-child) .menu-socials {
-  border-right: 1px solid #757575;
+  border-right: 1px solid rgba(33, 33, 33, 0.2);
   padding-right: 10px;
 }
 
