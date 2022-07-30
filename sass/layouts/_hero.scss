@@ -21,7 +21,7 @@
         (-webkit-min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
-            background-image: url(../../images/hero/hero_mobile@2x.png);
+            background-image: url(../images/hero/hero_mobile@2x.png);
         }    
 
     @media screen and (min-width: 768px) {
@@ -34,7 +34,7 @@
                 #2f303a66 40%,
                 #2f303a66 65%,
                 #2f303a66),
-            url(../../images/hero/hero_tablet.jpg);
+            url(../images/hero/hero_tablet.jpg);
     }
 
     // Retina display tablet
@@ -43,7 +43,7 @@
     (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-        background-image: url(../../images/hero/hero_tablet@2x.jpg);
+        background-image: url(../images/hero/hero_tablet@2x.jpg);
     }
 
     @media screen and (min-width: 1200px) {
@@ -56,7 +56,7 @@
                 #2f303a66 40%,
                 #2f303a66 65%,
                 #2f303a66),
-            url(../../images/hero/hero_desk.jpg);
+            url(../images/hero/hero_desk.jpg);
 
         // Retina display desktop
 
@@ -64,7 +64,7 @@
         (-webkit-min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
-            background-image: url(../../images/hero/hero_desk@2x.jpg);
+            background-image: url(../images/hero/hero_desk@2x.jpg);
         }
     }
 }
