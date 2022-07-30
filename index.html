@@ -24,20 +24,20 @@
         <div class="nav-decor">
             <nav class="container main-nav">
                 <div class="main-nav_bar">
-                <div>
-                    <a href="#" class="logo link">Web<span class="logo-header">Studio</span></a>
+                    <div>
+                        <a href="#" class="logo link">Web<span class="logo-header">Studio</span></a>
+                    </div>
+                    <div>
+                        <ul class="site-nav list header-menu">
+                            <li><a href="https://izaitseva.github.io/goit-markup-hw-08/"
+                                    class="link link-nav active current">Студия</a>
+                            </li>
+                            <li><a href="https://izaitseva.github.io/goit-markup-hw-08/portfolio.html"
+                                    class="link link-nav">Портфолио</a></li>
+                            <li><a href="#" class="link link-nav">Контакты</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <div>
-                    <ul class="site-nav list header-menu">
-                        <li><a href="https://izaitseva.github.io/goit-markup-hw-08/"
-                                class="link link-nav active current">Студия</a>
-                        </li>
-                        <li><a href="https://izaitseva.github.io/goit-markup-hw-08/portfolio.html"
-                                class="link link-nav">Портфолио</a></li>
-                        <li><a href="#" class="link link-nav">Контакты</a></li>
-                    </ul>
-                </div>
-            </div>
 
                 <!--Контакти-->
                 <div class="div-contacts">
@@ -72,7 +72,8 @@
                         <a class="mobile-link link current" href="">Студия</a>
                     </li>
                     <li class="mobile-menu-nav">
-                        <a class="mobile-link link" href="https://izaitseva.github.io/goit-markup-hw-08/portfolio.html">Портфолио</a>
+                        <a class="mobile-link link"
+                            href="https://izaitseva.github.io/goit-markup-hw-08/portfolio.html">Портфолио</a>
                     </li>
                     <li class="mobile-menu-nav">
                         <a class="mobile-link link" href="">Контакты</a>
@@ -101,7 +102,7 @@
                     </li>
                 </ul>
             </div>
-        </div> 
+        </div>
     </header>
     <!--Основна частина-->
     <main>
@@ -252,7 +253,21 @@
                 <h2 class="section-header">Наша команда</h2>
                 <ul class="list team__list">
                     <li class="team__item">
-                        <img class="team__img" src="./images/Ihor.jpg" alt="фото" width="270">
+                        <picture>
+                            <source media="(min-width: 1200px)"
+                                srcset="./images/team/team_4_desk.jpg 1x, ./images/team/team_4_desk@2x.jpg 2x"
+                                type="image/jpg" />
+
+                            <source media="(min-width: 768px)"
+                                srcset="./images/team/team_04_tablet.jpg 1x, ./images/team/team_04_tablet@2x.jpg 2x"
+                                type="image/jpg" />
+
+                            <source media="(min-width: 480px)"
+                                srcset="./images/team/team_4_mobile.jpg 1x, ./images/team/team_4_mobile@2x.jpg 2x"
+                                type="image/jpg" />
+
+                            <img class="team__img" src="./images/team/team_4_mobile.jpg" alt="фото" width="270">
+                        </picture>
                         <div class="team__desc">
                             <h3>Игорь Демьяненко</h3>
                             <p>Product Designer</p>
@@ -291,7 +306,21 @@
                         </div>
                     </li>
                     <li class="team__item">
-                        <img class="team__img" src="./images/Olga.jpg" alt="фото" width="270">
+                        <picture>
+                            <source media="(min-width: 1200px)"
+                                srcset="./images/team/team_3_desk.jpg 1x, ./images/team/team_3_desk@2x.jpg 2x"
+                                type="image/jpg" />
+
+                            <source media="(min-width: 768px)"
+                                srcset="./images/team/team_03_tablet.jpg 1x, ./images/team/team_03_tablet@2x.jpg 2x"
+                                type="image/jpg" />
+
+                            <source media="(min-width: 480px)"
+                                srcset="./images/team/team_3_mobile.jpg 1x, ./images/team/team_3_mobile@2x.jpg 2x"
+                                type="image/jpg" />
+
+                            <img class="team__img" src="./images/team/team_3_mobile.jpg" alt="фото" width="270">
+                        </picture>
                         <div class="team__desc">
                             <h3>Ольга Репина</h3>
                             <p>Frontend Developer</p>
@@ -330,7 +359,21 @@
                         </div>
                     </li>
                     <li class="team__item">
-                        <img class="team__img" src="./images/Nick.jpg" alt="фото" width="270">
+                        <picture>
+                            <source media="(min-width: 1200px)"
+                                srcset="./images/team/team_2_desk.jpg 1x, ./images/team/team_2_desk@2x.jpg 2x"
+                                type="image/jpg" />
+
+                            <source media="(min-width: 768px)"
+                                srcset="./images/team/team_02_tablet.jpg 1x, ./images/team/team_02_tablet@2x.jpg 2x"
+                                type="image/jpg" />
+
+                            <source media="(min-width: 480px)"
+                                srcset="./images/team/team_2_mobile.jpg 1x, ./images/team/team_2_mobile@2x.jpg 2x"
+                                type="image/jpg" />
+
+                            <img class="team__img" src="./images/team/team_2_mobile.jpg" alt="фото" width="270">
+                        </picture>
                         <div class="team__desc">
                             <h3>Николай Тарасов</h3>
                             <p>Marketing</p>
@@ -369,7 +412,21 @@
                         </div>
                     </li>
                     <li class="team__item">
-                        <img class="team__img" src="./images/Michael.jpg" alt="фото" width="270">
+                        <picture>
+                            <source media="(min-width: 1200px)"
+                                srcset="./images/team/team_1_desk.jpg 1x, ./images/team/team_1_desk@2x.jpg 2x"
+                                type="image/jpg" />
+
+                            <source media="(min-width: 768px)"
+                                srcset="./images/team/team_01_tablet.jpg 1x, ./images/team/team_01_tablet@2x.jpg 2x"
+                                type="image/jpg" />
+
+                            <source media="(min-width: 480px)"
+                                srcset="./images/team/team_1_mobile.jpg 1x, ./images/team/team_1_mobile@2x.jpg 2x"
+                                type="image/jpg" />
+
+                            <img class="team__img" src="./images/team/team_1_mobile.jpg" alt="фото" width="270">
+                        </picture>
                         <div class="team__desc">
                             <h3>Михаил Ермаков</h3>
                             <p>UI Designer</p>
@@ -520,12 +577,12 @@
                 <div class="input-flex">
                     <input class="footer-input" type="text" placeholder="E-mail">
                     <div class="footer-btn">
-                    <button class="footer-button" type="submit">Подписаться
-                        <svg class="button-icon" lass="telegram-icon" width="24" height="24">
-                            <use href="./images/icons.svg#icon-telegram"></use>
-                        </svg>
-                    </button>
-                </div>
+                        <button class="footer-button" type="submit">Подписаться
+                            <svg class="button-icon" lass="telegram-icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-telegram"></use>
+                            </svg>
+                        </button>
+                    </div>
                 </div>
             </div>
     </footer>
