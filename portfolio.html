@@ -13,9 +13,9 @@
         rel="stylesheet">
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
-        <link rel="stylesheet" href="./css/main.min.css">
-        <link rel="stylesheet" href="./css/styles.css">
-    </head>
+    <link rel="stylesheet" href="./css/main.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
 
 <body>
     <!--Верхня частина-->
@@ -23,17 +23,20 @@
         <div class="nav-decor nav-portf">
             <nav class="container main-nav">
                 <div class="main-nav_bar">
-                <div>
-                    <a href="https://izaitseva.github.io/goit-markup-hw-07/" class="logo link">Web<span
-                            class="logo-header">Studio</span></a>
-                </div>
-                <div>
-                    <ul class="site-nav list header-menu">
-                        <li><a href="https://izaitseva.github.io/goit-markup-hw-08/" class="link link-nav">Студия</a>
-                        </li>
-                        <li><a class="link link-nav active current" href="https://izaitseva.github.io/goit-markup-hw-08/portfolio.html">Портфолио</a></li>
-                        <li><a href="#" class="link link-nav">Контакты</a></li>
-                    </ul>
+                    <div>
+                        <a href="https://izaitseva.github.io/goit-markup-hw-07/" class="logo link">Web<span
+                                class="logo-header">Studio</span></a>
+                    </div>
+                    <div>
+                        <ul class="site-nav list header-menu">
+                            <li><a href="https://izaitseva.github.io/goit-markup-hw-08/"
+                                    class="link link-nav">Студия</a>
+                            </li>
+                            <li><a class="link link-nav active current"
+                                    href="https://izaitseva.github.io/goit-markup-hw-08/portfolio.html">Портфолио</a>
+                            </li>
+                            <li><a href="#" class="link link-nav">Контакты</a></li>
+                        </ul>
                     </div>
                 </div>
                 <!--Контакти-->
@@ -54,7 +57,7 @@
                     </ul>
                 </div>
             </nav>
-              <!-- Mobile menu -->
+            <!-- Mobile menu -->
             <button class="mobile-menu-btn is-open" type="button" data-menu-button>
                 <svg class="mobile-menu-icon" width="24" height="16">
                     <use class="mobile-menu-burger" href="./images/icons.svg#icon-mobile_menu_btn"></use>
@@ -128,7 +131,21 @@
                 <ul class="list portfolio__list">
                     <li class="porfolio__item">
                         <div class="portfolio__desc">
-                            <img class="portfolio__img" src="./images/images portfolio/img(9).jpg" alt="Ноутбук">
+                            <picture>
+                                <source media="(min-width: 1200px)"
+                                    srcset="./images/portfolio/portfolio_9_desk.jpg 1x, ./images/portfolio/portfolio_9_desk.jpg 2x"
+                                    type="image/jpg" />
+
+                                <source media="(min-width: 768px)"
+                                    srcset="./images/portfolio/portfolio_1_tablet.jpg 1x, ./images/portfolio/portfolio_1_tablet@2x.jpg 2x"
+                                    type="image/jpg" />
+
+                                <source media="(min-width: 480px)"
+                                    srcset="./images/portfolio/portfolio_1_mobile.jpg 1x, ./images/portfolio/portfolio_1_mobbile@2x.jpg 2x"
+                                    type="image/jpg" />
+
+                                <img class="team__img" src="./images/portfolio/portfolio_9_mobile.jpg" alt="Ноутбук">
+                            </picture>
                             <div class="overlay">
                                 <p class="overlay__desc">
                                     Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
@@ -144,7 +161,21 @@
                     </li>
                     <li class="porfolio__item">
                         <div class="portfolio__desc">
-                        <img class="portfolio__img" src="./images/images portfolio/img(1).jpg" alt="Баскетбол">
+                            <picture>
+                                <source media="(min-width: 1200px)"
+                                    srcset="./images/portfolio/portfolio_8_desk.jpg 1x, ./images/portfolio/portfolio_8_desk.jpg 2x"
+                                    type="image/jpg" />
+
+                                <source media="(min-width: 768px)"
+                                    srcset="./images/portfolio/portfolio_2_tablet.jpg 1x, ./images/portfolio/portfolio_2_tablet@2x.jpg 2x"
+                                    type="image/jpg" />
+
+                                <source media="(min-width: 480px)"
+                                    srcset="./images/portfolio/portfolio_2_mobile.jpg 1x, ./images/portfolio/portfolio_2_mobbile@2x.jpg 2x"
+                                    type="image/jpg" />
+
+                                <img class="team__img" src="./images/portfolio/portfolio_9_mobile.jpg" alt="Баскетбол">
+                            </picture>
                             <div class="overlay">
                                 <p class="overlay__desc">
                                     Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
@@ -160,7 +191,21 @@
                     </li>
                     <li class="porfolio__item">
                         <div class="portfolio__desc">
-                        <img class="portfolio__img" src="./images/images portfolio/img(2).jpg" alt="Баскетбол">
+                            <picture>
+                                <source media="(min-width: 1200px)"
+                                    srcset="./images/portfolio/portfolio_7_desk.jpg 1x, ./images/portfolio/portfolio_7_desk.jpg 2x"
+                                    type="image/jpg" />
+
+                                <source media="(min-width: 768px)"
+                                    srcset="./images/portfolio/portfolio_3_tablet.jpg 1x, ./images/portfolio/portfolio_2_tablet@2x.jpg 2x"
+                                    type="image/jpg" />
+
+                                <source media="(min-width: 480px)"
+                                    srcset="./images/portfolio/portfolio_3_mobile.jpg 1x, ./images/portfolio/portfolio_3_mobbile@2x.jpg 2x"
+                                    type="image/jpg" />
+
+                                <img class="team__img" src="./images/portfolio/portfolio_9_mobile.jpg" alt="Морская еда">
+                            </picture>
                             <div class="overlay">
                                 <p class="overlay__desc">
                                     Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
@@ -176,7 +221,21 @@
                     </li>
                     <li class="porfolio__item">
                         <div class="portfolio__desc">
-                        <img class="portfolio__img" src="./images/images portfolio/img(3).jpg" alt="Баскетбол">
+                            <picture>
+                                <source media="(min-width: 1200px)"
+                                    srcset="./images/portfolio/portfolio_6_desk.jpg 1x, ./images/portfolio/portfolio_6_desk.jpg 2x"
+                                    type="image/jpg" />
+
+                                <source media="(min-width: 768px)"
+                                    srcset="./images/portfolio/portfolio_4_tablet.jpg 1x, ./images/portfolio/portfolio_4_tablet@2x.jpg 2x"
+                                    type="image/jpg" />
+
+                                <source media="(min-width: 480px)"
+                                    srcset="./images/portfolio/portfolio_4_mobile.jpg 1x, ./images/portfolio/portfolio_4_mobbile@2x.jpg 2x"
+                                    type="image/jpg" />
+
+                                <img class="team__img" src="./images/portfolio/portfolio_6_mobile.jpg" alt="Наушники">
+                            </picture>
                             <div class="overlay">
                                 <p class="overlay__desc">
                                     Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
@@ -192,7 +251,21 @@
                     </li>
                     <li class="porfolio__item">
                         <div class="portfolio__desc">
-                        <img class="portfolio__img" src="./images/images portfolio/img(4).jpg" alt="Баскетбол">
+                            <picture>
+                                <source media="(min-width: 1200px)"
+                                    srcset="./images/portfolio/portfolio_5_desk.jpg 1x, ./images/portfolio/portfolio_5_desk.jpg 2x"
+                                    type="image/jpg" />
+
+                                <source media="(min-width: 768px)"
+                                    srcset="./images/portfolio/portfolio_5_tablet.jpg 1x, ./images/portfolio/portfolio_5_tablet@2x.jpg 2x"
+                                    type="image/jpg" />
+
+                                <source media="(min-width: 480px)"
+                                    srcset="./images/portfolio/portfolio_5_mobile.jpg 1x, ./images/portfolio/portfolio_5_mobbile@2x.jpg 2x"
+                                    type="image/jpg" />
+
+                                <img class="team__img" src="./images/portfolio/portfolio_5_mobile.jpg" alt="Коробочки">
+                            </picture>
                             <div class="overlay">
                                 <p class="overlay__desc">
                                     Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
@@ -208,7 +281,21 @@
                     </li>
                     <li class="porfolio__item">
                         <div class="portfolio__desc">
-                        <img class="portfolio__img" src="./images/images portfolio/img(5).jpg" alt="Баскетбол">
+                            <picture>
+                                <source media="(min-width: 1200px)"
+                                    srcset="./images/portfolio/portfolio_4_desk.jpg 1x, ./images/portfolio/portfolio_4_desk.jpg 2x"
+                                    type="image/jpg" />
+
+                                <source media="(min-width: 768px)"
+                                    srcset="./images/portfolio/portfolio_6_tablet.jpg 1x, ./images/portfolio/portfolio_6_tablet@2x.jpg 2x"
+                                    type="image/jpg" />
+
+                                <source media="(min-width: 480px)"
+                                    srcset="./images/portfolio/portfolio_6_mobile.jpg 1x, ./images/portfolio/portfolio_6_mobbile@2x.jpg 2x"
+                                    type="image/jpg" />
+
+                                <img class="team__img" src="./images/portfolio/portfolio_6_mobile.jpg" alt="Монитор">
+                            </picture>
                             <div class="overlay">
                                 <p class="overlay__desc">
                                     Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
@@ -224,7 +311,21 @@
                     </li>
                     <li class="porfolio__item">
                         <div class="portfolio__desc">
-                        <img class="portfolio__img" src="./images/images portfolio/img(6).jpg" alt="Баскетбол">
+                            <picture>
+                                <source media="(min-width: 1200px)"
+                                    srcset="./images/portfolio/portfolio_3_desk.jpg 1x, ./images/portfolio/portfolio_3_desk.jpg 2x"
+                                    type="image/jpg" />
+
+                                <source media="(min-width: 768px)"
+                                    srcset="./images/portfolio/portfolio_7_tablet.jpg 1x, ./images/portfolio/portfolio_7_tablet@2x.jpg 2x"
+                                    type="image/jpg" />
+
+                                <source media="(min-width: 480px)"
+                                    srcset="./images/portfolio/portfolio_7_mobile.jpg 1x, ./images/portfolio/portfolio_7_mobbile@2x.jpg 2x"
+                                    type="image/jpg" />
+
+                                <img class="team__img" src="./images/portfolio/portfolio_7_mobile.jpg" alt="Журнал">
+                            </picture>
                             <div class="overlay">
                                 <p class="overlay__desc">
                                     Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
@@ -240,7 +341,21 @@
                     </li>
                     <li class="porfolio__item">
                         <div class="portfolio__desc">
-                        <img class="portfolio__img" src="./images/images portfolio/img(7).jpg" alt="Баскетбол">
+                            <picture>
+                                <source media="(min-width: 1200px)"
+                                    srcset="./images/portfolio/portfolio_2_desk.jpg 1x, ./images/portfolio/portfolio_2_desk.jpg 2x"
+                                    type="image/jpg" />
+
+                                <source media="(min-width: 768px)"
+                                    srcset="./images/portfolio/portfolio_8_tablet.jpg 1x, ./images/portfolio/portfolio_8_tablet@2x.jpg 2x"
+                                    type="image/jpg" />
+
+                                <source media="(min-width: 480px)"
+                                    srcset="./images/portfolio/portfolio_8_mobile.jpg 1x, ./images/portfolio/portfolio_8_mobbile@2x.jpg 2x"
+                                    type="image/jpg" />
+
+                                <img class="team__img" src="./images/portfolio/portfolio_8_mobile.jpg" alt="Бирка">
+                            </picture>
                             <div class="overlay">
                                 <p class="overlay__desc">
                                     Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
@@ -256,7 +371,21 @@
                     </li>
                     <li class="porfolio__item">
                         <div class="portfolio__desc">
-                        <img class="portfolio__img" src="./images/images portfolio/img(8).jpg" alt="Баскетбол">
+                            <picture>
+                                <source media="(min-width: 1200px)"
+                                    srcset="./images/portfolio/portfolio_1_desk.jpg 1x, ./images/portfolio/portfolio_1_desk.jpg 2x"
+                                    type="image/jpg" />
+
+                                <source media="(min-width: 768px)"
+                                    srcset="./images/portfolio/portfolio_9_tablet.jpg 1x, ./images/portfolio/portfolio_9_tablet@2x.jpg 2x"
+                                    type="image/jpg" />
+
+                                <source media="(min-width: 480px)"
+                                    srcset="./images/portfolio/portfolio_9_mobile.jpg 1x, ./images/portfolio/portfolio_9_mobbile@2x.jpg 2x"
+                                    type="image/jpg" />
+
+                                <img class="team__img" src="./images/portfolio/portfolio_9_mobile.jpg" alt="Экран ноутбука">
+                            </picture>
                             <div class="overlay">
                                 <p class="overlay__desc">
                                     Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
@@ -332,17 +461,17 @@
                 <div class="input-flex">
                     <input class="footer-input" type="text" placeholder="E-mail">
                     <div class="footer-btn">
-                    <button class="footer-button" type="submit">Подписаться
-                        <svg class="button-icon" lass="telegram-icon" width="24" height="24">
-                            <use href="./images/icons.svg#icon-telegram"></use>
-                        </svg>
-                    </button>
-                </div>
+                        <button class="footer-button" type="submit">Подписаться
+                            <svg class="button-icon" lass="telegram-icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-telegram"></use>
+                            </svg>
+                        </button>
+                    </div>
                 </div>
             </div>
     </footer>
-    
-<!-- Подключение скрипта -->
+
+    <!-- Подключение скрипта -->
     <script src="./js/modal.js"></script>
     <script src="./js/menu.js"></script>
 </body>
