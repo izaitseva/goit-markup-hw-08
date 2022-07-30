@@ -924,6 +924,9 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .header-contacts {
@@ -1023,7 +1026,7 @@ body {
   content: " ";
   position: absolute;
   background-color: transparent;
-  top: 51px;
+  top: 47px;
   border-radius: 4px;
   left: 0;
   height: 4px;
@@ -1039,7 +1042,7 @@ body {
   content: " ";
   position: absolute;
   background-color: #2196F3;
-  top: 51px;
+  top: 47px;
   border-radius: 4px;
   left: 0;
   height: 4px;
@@ -1054,7 +1057,7 @@ body {
   content: " ";
   position: absolute;
   background-color: #2196F3;
-  top: 51px;
+  top: 47px;
   border-radius: 4px;
   left: 0;
   height: 4px;

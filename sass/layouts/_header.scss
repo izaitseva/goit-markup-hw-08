@@ -41,6 +41,7 @@
 
 .main-nav_bar {
     display: flex;
+    align-items: center;
 }
 .header-contacts {
     column-gap: 10px;
@@ -120,7 +121,7 @@
         content: " ";
         position: absolute;
         background-color: transparent;
-        top: 51px;
+        top: 47px;
         border-radius: 4px;
         left: 0;
         height: 4px;
@@ -136,7 +137,7 @@
         content: " ";
         position: absolute;
         background-color: #2196F3;
-        top: 51px;
+        top: 47px;
         border-radius: 4px;
         left: 0;
         height: 4px;
@@ -151,7 +152,7 @@
         content: " ";
         position: absolute;
         background-color: #2196F3;
-        top: 51px;
+        top: 47px;
         border-radius: 4px;
         left: 0;
         height: 4px;
