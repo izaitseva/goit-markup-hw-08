@@ -1002,6 +1002,9 @@ body {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+.link-nav:hover, .link-nav:focus {
+  color: #2196F3;
+}
 @media screen and (min-width: 768px) {
   .link-nav {
     display: -webkit-box;
@@ -1020,7 +1023,7 @@ body {
   content: " ";
   position: absolute;
   background-color: transparent;
-  top: 47px;
+  top: 51px;
   border-radius: 4px;
   left: 0;
   height: 4px;
@@ -1036,21 +1039,31 @@ body {
   content: " ";
   position: absolute;
   background-color: #2196F3;
-  top: 47px;
+  top: 51px;
   border-radius: 4px;
   left: 0;
   height: 4px;
   width: 100%;
 }
+@media screen and (max-width: 1200px) {
+  .link-nav:hover::after, .link-nav:focus::after {
+    display: none;
+  }
+}
 .link-nav.active::after {
   content: " ";
   position: absolute;
   background-color: #2196F3;
-  top: 47px;
+  top: 51px;
   border-radius: 4px;
   left: 0;
   height: 4px;
   width: 100%;
+}
+@media screen and (max-width: 1200px) {
+  .link-nav.active::after {
+    display: none;
+  }
 }
 
 .link {

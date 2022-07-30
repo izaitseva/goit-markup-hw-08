@@ -97,6 +97,11 @@
     color: #212121;
     display: none;
 
+    &:hover,
+    &:focus {
+        color: #2196F3;
+    }
+
     @media screen and (min-width: 768px) {
         display: flex;
     }
@@ -115,7 +120,7 @@
         content: " ";
         position: absolute;
         background-color: transparent;
-        top: 47px;
+        top: 51px;
         border-radius: 4px;
         left: 0;
         height: 4px;
@@ -131,22 +136,30 @@
         content: " ";
         position: absolute;
         background-color: #2196F3;
-        top: 47px;
+        top: 51px;
         border-radius: 4px;
         left: 0;
         height: 4px;
         width: 100%;
+
+        @media screen and (max-width: 1200px) {
+            display: none;
+        }
     }
 
     &.active::after {
         content: " ";
         position: absolute;
         background-color: #2196F3;
-        top: 47px;
+        top: 51px;
         border-radius: 4px;
         left: 0;
         height: 4px;
         width: 100%;
+
+        @media screen and (max-width: 1200px) {
+            display: none;
+        }
     }
 }
 
