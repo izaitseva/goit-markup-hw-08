@@ -769,8 +769,8 @@ body {
   top: 0;
   left: 0;
   z-index: 100;
-  -webkit-transform: translateX(100%);
-          transform: translateX(100%);
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
   width: 100vw;
   height: 100vh;
   padding: 48px 40px;
@@ -1133,8 +1133,6 @@ body {
 }
 
 .main-section {
-  background-image: -webkit-gradient(linear, left top, right top, color-stop(15%, rgba(47, 48, 58, 0.4)), color-stop(40%, rgba(47, 48, 58, 0.4)), color-stop(65%, rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/add_images/cover.jpg);
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4) 15%, rgba(47, 48, 58, 0.4) 40%, rgba(47, 48, 58, 0.4) 65%, rgba(47, 48, 58, 0.4)), url(../images/add_images/cover.jpg);
   max-width: 480px;
   margin-left: auto;
   margin-right: auto;
@@ -1143,12 +1141,16 @@ body {
   text-align: center;
   height: 400px;
   padding-top: 118px;
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(15%, rgba(47, 48, 58, 0.4)), color-stop(40%, rgba(47, 48, 58, 0.4)), color-stop(65%, rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../../images/hero/hero_mobile.jpg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4) 15%, rgba(47, 48, 58, 0.4) 40%, rgba(47, 48, 58, 0.4) 65%, rgba(47, 48, 58, 0.4)), url(../../images/hero/hero_mobile.jpg);
 }
 @media screen and (min-width: 768px) {
   .main-section {
     max-width: 768px;
     height: 400px;
     padding-top: 118px;
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(15%, rgba(47, 48, 58, 0.4)), color-stop(40%, rgba(47, 48, 58, 0.4)), color-stop(65%, rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../../images/hero/hero_tablet.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4) 15%, rgba(47, 48, 58, 0.4) 40%, rgba(47, 48, 58, 0.4) 65%, rgba(47, 48, 58, 0.4)), url(../../images/hero/hero_tablet.jpg);
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1156,6 +1158,8 @@ body {
     max-width: 1200px;
     height: 600px;
     padding-top: 200px;
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(15%, rgba(47, 48, 58, 0.4)), color-stop(40%, rgba(47, 48, 58, 0.4)), color-stop(65%, rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../../images/hero/hero_desk.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4) 15%, rgba(47, 48, 58, 0.4) 40%, rgba(47, 48, 58, 0.4) 65%, rgba(47, 48, 58, 0.4)), url(../../images/hero/hero_desk.jpg);
   }
 }
 
