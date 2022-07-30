@@ -9,11 +9,10 @@
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-left: auto;
-  z-index: 10;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  z-index: 1000;
 }
 @media screen and (min-width: 768px) {
   .mobile-menu-btn {
@@ -36,12 +35,16 @@
 }
 .mobile-menu-btn.is-open .mobile-menu-close {
   opacity: 1;
+  position: fixed;
+  top: 15px;
+  right: 15px;
 }
 
 .mobile-menu {
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 100;
   -webkit-transform: translateX(100%);
           transform: translateX(100%);
   width: 100vw;
