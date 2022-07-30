@@ -5,11 +5,11 @@
 	height: 40px;
 
 	display: flex;
-	align-items: center;
+	align-items: flex-start;
 	justify-content: center;
 
 	margin-left: auto;
-	z-index: 100;
+	z-index: 10;
 
 	@media screen and (min-width: 768px) {
 		display: none;
@@ -37,7 +37,7 @@
 	position: fixed;
 	top: 0;
 	left: 0;
-	z-index: 100;
+	// z-index: 100;
 	transform: translateX(100%);
 
 	width: 100vw;
@@ -58,6 +58,10 @@
 	@media screen and (min-width: 768px) {
 		display: none;
 	}
+}
+
+.nav-decor {
+    display: flex
 }
 
 .mobile-menu-burger {
