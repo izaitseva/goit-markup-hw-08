@@ -1610,12 +1610,23 @@ body {
           justify-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 @media screen and (min-width: 768px) {
   .footer-container {
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1784,13 +1795,19 @@ body {
           align-items: center;
   padding-left: 16px;
   background-color: transparent;
-  width: 358px;
+  width: 100%;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   color: rgba(255, 255, 255, 0.6);
   border-radius: 4px;
   margin-right: 12px;
   outline: transparent;
+}
+@media screen and (min-width: 768px) {
+  .footer-input {
+    width: 358px;
+    height: 40px;
+  }
 }
 
 .footer-input:hover,
