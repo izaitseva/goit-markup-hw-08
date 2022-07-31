@@ -72,7 +72,6 @@
     font-weight: 900;
     font-size: 26px;
     line-height: 1.6;
-    width: 360px;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     margin-left: auto;
@@ -84,6 +83,7 @@
     @media screen and (min-width: 768px) {
         font-size: 26px;
         line-height: 1.6;
+        width: 360px;
     }
 
     @media screen and (min-width: 1200px) {

@@ -1186,7 +1186,6 @@ body {
   font-weight: 900;
   font-size: 26px;
   line-height: 1.6;
-  width: 360px;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   margin-left: auto;
@@ -1199,6 +1198,7 @@ body {
   .main-text {
     font-size: 26px;
     line-height: 1.6;
+    width: 360px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1293,22 +1293,11 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 450px;
   height: 120px;
   border-radius: 4px;
   background-color: #F5F4FA;
   gap: 30px;
   margin-bottom: 30px;
-}
-@media screen and (min-width: 768px) {
-  .feature-icon {
-    width: 354px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .feature-icon {
-    width: 270px;
-  }
 }
 
 .list-services {
@@ -1353,18 +1342,22 @@ body {
   line-height: 1.7;
   letter-spacing: 0.03em;
   margin-bottom: 0;
-  width: 450px;
-}
-@media screen and (min-width: 768px) {
-  .list-services p {
-    width: 354px;
-  }
 }
 @media screen and (min-width: 1200px) {
   .list-services p {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .services_item {
+    width: 354px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .services_item {
     width: 270px;
   }
 }
