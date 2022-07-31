@@ -1133,7 +1133,6 @@ body {
 }
 
 .main-section {
-  max-width: 480px;
   margin-left: auto;
   margin-right: auto;
   background-color: #2F303A;
@@ -1371,6 +1370,7 @@ body {
 @media screen and (min-width: 1200px) {
   .features-layout {
     display: block;
+    padding-bottom: 94px;
   }
 }
 
