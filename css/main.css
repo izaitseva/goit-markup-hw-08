@@ -346,6 +346,10 @@ body {
   }
 }
 
+.footer-logo {
+  margin-right: 0;
+}
+
 .logo-header {
   color: #212121;
 }
@@ -1666,6 +1670,7 @@ body {
 }
 @media screen and (min-width: 768px) {
   .footer_list {
+    text-align: center;
     padding-left: 0px;
     padding-right: 0px;
   }
