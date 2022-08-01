@@ -134,13 +134,14 @@ body {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   gap: 8px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 @media screen and (min-width: 768px) {
   .portfolio__btn-list {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    margin-bottom: 50px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1142,6 +1143,7 @@ body {
   margin-right: auto;
   background-color: #2F303A;
   background-repeat: no-repeat;
+  background-size: cover;
   text-align: center;
   height: 400px;
   padding-top: 118px;
@@ -1155,7 +1157,6 @@ body {
 }
 @media screen and (min-width: 768px) {
   .main-section {
-    max-width: 768px;
     height: 400px;
     padding-top: 118px;
     background-image: -webkit-gradient(linear, left top, right top, color-stop(15%, rgba(47, 48, 58, 0.4)), color-stop(40%, rgba(47, 48, 58, 0.4)), color-stop(65%, rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/hero/hero_tablet.jpg);
@@ -1439,12 +1440,13 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   margin-top: 0;
 }
 @media screen and (min-width: 768px) {
   .clients-container h2 {
     font-size: 28px;
+    margin-bottom: 50px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1605,15 +1607,14 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 @media screen and (min-width: 768px) {
   .footer-container {

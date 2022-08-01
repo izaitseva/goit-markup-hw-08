@@ -3,6 +3,7 @@
     margin-right: auto;
     background-color: #2F303A;
     background-repeat: no-repeat;
+    background-size: cover;
     text-align: center;
     height: 400px;
     padding-top: 118px;
@@ -45,7 +46,7 @@
     }
 
     @media screen and (min-width: 1200px) {
-        // max-width: 1200px;
+        max-width: 1200px;
         height: 600px;
         padding-top: 200px;
 
