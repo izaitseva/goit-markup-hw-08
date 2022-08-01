@@ -97,10 +97,11 @@
         justify-content: left;
         flex-wrap: wrap;
         gap: 8px;
-        margin-bottom: 50px;
+        margin-bottom: 30px;
 
         @media screen and (min-width: 768px) {
             justify-content: center;
+            margin-bottom: 50px;
         }
         
         @media screen and (min-width: 1200px) {
