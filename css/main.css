@@ -18,6 +18,10 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.current {
+  color: #2196F3;
+}
+
 .list {
   list-style: none;
   padding: 0;
@@ -817,9 +821,6 @@ body {
 
 .mobile-menu-nav:not(:last-child) {
   margin-bottom: 32px;
-}
-.mobile-menu-nav:not(:last-child) .current {
-  color: #2196F3;
 }
 
 .mobile-nav {

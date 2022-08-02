@@ -88,9 +88,6 @@
 .mobile-menu-nav:not(:last-child) {
   margin-bottom: 32px;
 }
-.mobile-menu-nav:not(:last-child) .current {
-  color: #2196F3;
-}
 
 .mobile-nav {
   margin-bottom: auto;
