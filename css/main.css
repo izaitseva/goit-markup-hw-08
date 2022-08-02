@@ -1099,7 +1099,6 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #757575;
@@ -1112,6 +1111,7 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    font-size: 12px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1119,6 +1119,7 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    font-size: 14px;
   }
 }
 .contacts-header:hover, .contacts-header:focus {
