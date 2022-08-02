@@ -30,9 +30,6 @@
     display: none;
   }
 }
-.mobile-menu .current {
-  color: #2196F3;
-}
 
 .mobile-menu-btn {
   background-color: transparent;
@@ -74,6 +71,10 @@
   position: fixed;
   top: 15px;
   right: 15px;
+}
+
+.current {
+  color: #2196F3;
 }
 
 .nav-decor {
